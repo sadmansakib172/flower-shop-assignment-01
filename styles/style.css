@@ -32,6 +32,7 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    gap:50px;
 }
 
 .banner-title {
@@ -39,11 +40,15 @@
     font-size: 62px;
     font-weight: 800;
 }
+.banner-picture{
+    width: 500px;
+    height:600px;
+}
 
 /* featured flowers styels  */
 .featured-section {
     margin-top: 158px;
-    
+
 }
 
 .featured-flowers-container {
@@ -68,17 +73,19 @@
     margin-bottom: 15px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    
+
 }
-.featured-img-2{
+
+.featured-img-2 {
     width: 260px;
     height: 350px;
     margin-top: 25px;
     margin-bottom: 15px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    
+
 }
+
 .featured-img-3 {
     width: 260px;
     height: 350px;
@@ -86,13 +93,13 @@
     margin-bottom: 15px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    
+
 }
 
 .flowers-section {
     display: flex;
     /* align-items: center; */
-    width:1140px;
+    width: 1140px;
     height: 500px;
     align-items: center;
     margin: 0 auto;
@@ -110,9 +117,9 @@
 }
 
 .mini-container {
-    width:1140px;
-    height:320px;
-    margin:0 auto;
+    width: 1140px;
+    height: 280px;
+    margin: 0 auto;
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -129,4 +136,39 @@
     color: rgba(39, 39, 39, 0.80);
     font-size: 16px;
     font-weight: 600;
+}
+
+/* hot deal section styles  */
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* banner section styles  */
+.hot-deal-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top:120px;
+}
+
+.hot-deal-container {
+    display: flex;
+    height: 600px;
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 42px;
+    font-weight: 800;
+}
+.span-red{
+    color:#E55473;
 }

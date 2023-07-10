@@ -5,11 +5,19 @@
 
 /* common styles  */
 .btn-primary {
-    padding:20px 35px;
+    padding: 20px 35px;
     border-radius: 8px;
     background: #E55473;
-    border:0;
-    color:white;
+    border: 0;
+    color: white;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* banner section styles  */
@@ -32,10 +40,93 @@
     font-weight: 800;
 }
 
-.banner-description {
-    color: rgba(39, 39, 39, 0.60);
+/* featured flowers styels  */
+.featured-section {
+    margin-top: 158px;
+    
+}
+
+.featured-flowers-container {
+    text-align: center;
+}
+
+.title {
+    color: #272727;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.individual-flower {
+    text-align: center;
+
+}
+
+.featured-img-1 {
+    width: 260px;
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+}
+.featured-img-2{
+    width: 260px;
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    
+}
+.featured-img-3 {
+    width: 260px;
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    
+}
+
+.flowers-section {
+    display: flex;
+    /* align-items: center; */
+    width:1140px;
+    height: 500px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 16px;
+
+
+}
+
+.flowers-container {
+    margin-top: 50px;
+}
+
+.mini-section {
+    margin-top: 116px;
+}
+
+.mini-container {
+    width:1140px;
+    height:320px;
+    margin:0 auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.info {
+    text-align: center;
+}
+
+.info-description {
+    color: rgba(39, 39, 39, 0.80);
     font-size: 16px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-weight: 600;
 }

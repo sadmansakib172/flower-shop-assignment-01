@@ -27,7 +27,7 @@
 
 .banner-container {
     display: flex;
-    height: 800px;
+    height: 700px;
     width: 1140px;
     margin: 0 auto;
     justify-content: center;
@@ -43,6 +43,7 @@
 .banner-picture{
     width: 500px;
     height:600px;
+    padding-top: 100px;
 }
 
 /* featured flowers styels  */
@@ -67,8 +68,8 @@
 }
 
 .featured-img-1 {
-    width: 260px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     margin-top: 25px;
     margin-bottom: 15px;
     border-radius: 300px 300px 0px 0px;
@@ -77,8 +78,8 @@
 }
 
 .featured-img-2 {
-    width: 260px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     margin-top: 25px;
     margin-bottom: 15px;
     border-radius: 300px 300px 0px 0px;
@@ -87,11 +88,11 @@
 }
 
 .featured-img-3 {
-    width: 260px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     margin-top: 25px;
     margin-bottom: 15px;
-    border-radius: 300px 300px 0px 0px;
+    border-radius: 200px 200px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 
 }
@@ -103,7 +104,7 @@
     height: 500px;
     align-items: center;
     margin: 0 auto;
-    gap: 16px;
+    gap: 40px;
 
 
 }
@@ -172,3 +173,26 @@
 .span-red{
     color:#E55473;
 }
+
+/* Instagram section styles  */
+.instagram-section{
+    margin-top:110px;
+}
+.instagram-details{
+    text-align: center;
+}
+.instagram-pictures{
+    display: flex;
+    width: 1140px;
+    height: 400px;
+    margin:0 auto;
+    gap:20px;
+}
+.instagram-img{
+        width: 260px;
+        height: 320px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        background: rgba(5, 151, 160, 0.15);
+    
+    }

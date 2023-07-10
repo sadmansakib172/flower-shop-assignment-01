@@ -209,6 +209,7 @@
     align-items: center;
 } */
 .latest-deal-section {
+    margin-top:100px;
     width: 1140px;
     height: 400px;
     margin: 0 auto;
@@ -230,4 +231,33 @@
     border:0;
     margin-right: 10px;
     padding-left: 10px;
+}
+
+/* footer section styles  */
+.flower-shop-container{
+    width:100vw;
+    height:400px;
+    margin-top: 100px;
+    text-align: center;
+    background-color:#111010;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-title{
+    color: white;
+    font-size: 36px;
+    font-weight: 800;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.copyright-special{
+    color: rgba(255, 255, 255, 0.40);
 }

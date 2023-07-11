@@ -12,7 +12,7 @@
     color: white;
 }
 
-.description {
+.description{
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 500;
@@ -57,7 +57,7 @@
     text-align: center;
 }
 
-.title {
+.title{
     color: #272727;
     font-size: 36px;
     font-weight: 800;
@@ -190,7 +190,7 @@
     width: 1140px;
     height: 400px;
     margin: 0 auto;
-    gap: 20px;
+    gap: 35px;
 }
 
 .instagram-img {
@@ -260,4 +260,29 @@
 }
 .copyright-special{
     color: rgba(255, 255, 255, 0.40);
+}
+
+/* about us section styles  */
+.about-us-section{
+    margin-top:100px;
+  
+}
+.about-us-container{
+    text-align: center;
+    max-width: 1140px;
+    height:450px;
+    background-color: rgb(146, 221, 221);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+
+}
+.trusted{
+    position: absolute;
+    top:0px;
+    right:0px
+
 }

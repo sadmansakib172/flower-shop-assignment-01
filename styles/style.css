@@ -47,7 +47,7 @@
     padding-top: 100px;
 }
 
-/* featured flowers styels  */
+/* featured flowers styles  */
 .featured-section {
     margin-top: 158px;
 
@@ -201,13 +201,6 @@
     background: rgba(5, 151, 160, 0.15);
 
 }
-
-/* latest deals section styles  */
-/* .latest-deal-section{
-    
-    display: flex;
-    align-items: center;
-} */
 .latest-deal-section {
     margin-top:100px;
     width: 1140px;
@@ -231,6 +224,30 @@
     border:0;
     margin-right: 10px;
     padding-left: 10px;
+}
+/* about us section styles  */
+.about-us-section{
+    margin-top:100px;
+  
+}
+.about-us-container{
+    text-align: center;
+    max-width: 1140px;
+    height:450px;
+    background-color: rgb(146, 221, 221);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+
+}
+.trusted{
+    position: absolute;
+    top:0px;
+    right:0px
+
 }
 
 /* footer section styles  */
@@ -260,29 +277,4 @@
 }
 .copyright-special{
     color: rgba(255, 255, 255, 0.40);
-}
-
-/* about us section styles  */
-.about-us-section{
-    margin-top:100px;
-  
-}
-.about-us-container{
-    text-align: center;
-    max-width: 1140px;
-    height:450px;
-    background-color: rgb(146, 221, 221);
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    
-
-}
-.trusted{
-    position: absolute;
-    top:0px;
-    right:0px
-
 }
